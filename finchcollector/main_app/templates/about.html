@@ -1,9 +1,11 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block content %}
 
 <h1>About the Finch Collector</h1>
 <hr />
-<p>Hire the Finch Collector!</p>
+<p class="center"><img src="{% static "images/finchImg.png" %}" alt="Finch" style="width: 10rem;"></p>
+<hr />
+<p class="center">Hire the Finch Collector!</p>
 
 {% endblock %}

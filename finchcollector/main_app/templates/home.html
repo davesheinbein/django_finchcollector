@@ -1,10 +1,11 @@
 {% extends 'base.html' %}
 
+{% load static %}
 {% block content %}
 
 <h1 class="center"> Welcome to the<br><strong>Finch Collector Network</strong></h1>
 <hr />
-<p class="center"><img src="http://clipart-library.com/img/999731.png" alt="Finch" style="width: 10rem;"></p>
+<p class="center"><img src="{% static "images/finchImg.png" %}" alt="Finch" style="width: 10rem;"></p>
 <p class="center">Come see what we've got in stock</p>
 <div>
     <ul class="center">
